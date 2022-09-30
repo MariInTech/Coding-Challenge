@@ -1,0 +1,12 @@
+const scoreDolphins = (97 + 101 + 112) / 3;
+const scoreKoalas = (95 + 106 + 109) / 3;
+console.log(scoreDolphins, scoreKoalas)
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+    console.log('Dolphins win the trophy!');
+} else if (scoreKoalas > scoreDolphins) {
+   console.log('Koalas win the trophy!');
+   } else if (scoreDolphins === scoreKoalas) {
+console.log(' Both teams win the trophy!');
+   }
+   // Both teams win the trophy
